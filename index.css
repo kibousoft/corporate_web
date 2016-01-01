@@ -11,3 +11,18 @@ table {
 td, th {
   border: 1px solid black;
 }
+
+ul {
+    width: 220px;
+    padding: 0px;
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid black;
+}
+
+li img {
+    width: 200px;
+}
