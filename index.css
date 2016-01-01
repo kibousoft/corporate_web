@@ -1,5 +1,26 @@
 body {
   text-align: center;
+  width: 600px;
+  margin: auto;
+  background-color: #eeffff;
+}
+
+h1 {
+    border: outset #66ffff 5px;
+    background-color: #99ffff;
+}
+
+h2 {
+    border: outset #666666 2px;
+    background-color: #cccccc;
+}
+
+hr {
+    border-top:dashed 1px #cccccc;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    height:1px;
 }
 
 table {
@@ -21,6 +42,7 @@ ul {
 li {
     list-style-type: none;
     border: 1px solid black;
+    background-color: white;
 }
 
 li img {
