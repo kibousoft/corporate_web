@@ -2,18 +2,22 @@ body {
   text-align: center;
   width: 600px;
   margin: auto;
-  background-color: #eeffff;
+  background-color: #f8f6f6;
 }
 
 h1 {
-    border: outset #66ffff 5px;
-    background-color: #ccffff;
-    color: #339999;
+    border: outset #0044aa 2px;
+    background-color: white;
+}
+
+h1 img {
+    width: 200px;
+    margin-top: 5px;
 }
 
 h2 {
-    border: outset #666666 2px;
-    background-color: #cccccc;
+    border: outset #0099ff 1px;
+    background-color: white;
 }
 
 hr {
@@ -27,11 +31,10 @@ hr {
 table {
   margin: auto;
   border-collapse: collapse;
-  border: 3px solid black;
 }
 
 td, th {
-  border: 1px solid black;
+  border: 1px solid #0099ff;
 }
 
 ul {
