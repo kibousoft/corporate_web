@@ -1,7 +1,12 @@
 body {
+  background-color: #666666;
+}
+
+#main {
   text-align: center;
   width: 600px;
   margin: auto;
+  padding: 20px;
   background-color: #f8f6f6;
 }
 
@@ -46,6 +51,18 @@ ul {
 li {
     list-style-type: none;
     border: 1px solid black;
+    background-color: white;
+}
+
+ul#privacy {
+    width: 500px;
+    padding: 0px;
+    margin: auto;
+}
+
+ul#privacy li {
+    list-style-type: disc;
+    border: 0px;
     background-color: white;
 }
 
