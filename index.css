@@ -48,10 +48,15 @@ ul {
     margin: auto;
 }
 
-li {
+ul#service li {
     list-style-type: none;
     border: 1px solid black;
     background-color: white;
+    margin: 20px;
+}
+
+ul#service li img.tsukuring {
+    width: 160px;
 }
 
 ul#privacy {
@@ -66,8 +71,9 @@ ul#privacy li {
     background-color: white;
 }
 
-li img {
-    width: 200px;
+img.appstore {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #lancers {
