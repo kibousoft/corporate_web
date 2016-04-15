@@ -74,6 +74,13 @@ ul#privacy li {
 img.appstore {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img.appicon {
+    width: 100px;
+    height: 100px;
 }
 
 #lancers {
