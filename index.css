@@ -50,6 +50,10 @@ ul {
     margin: auto;
 }
 
+ul#work {
+    width: 80%;
+}
+
 ul#service li {
     list-style-type: none;
     border: 1px solid black;
