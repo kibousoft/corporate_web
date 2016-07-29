@@ -4,6 +4,11 @@ body {
 
 }
 
+.cf:before, .cf:after { content:""; display:table; }
+.cf:after { clear:both; }
+/* For IE 6/7 (trigger hasLayout) */
+.cf { zoom:1; }
+
 #main {
   text-align: center;
   width: 600px;
@@ -50,10 +55,66 @@ ul {
     margin: auto;
 }
 
-ul#work {
-    width: 80%;
+div.work p {
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0;
+	text-align:left;
 }
 
+div.work ul {
+	width: 90%;
+	list-style:none;
+}
+
+div.work ul li{
+    padding:10px;
+	border:1px solid #4aa1f9;
+	background:#fff;
+	margin-bottom:10px;
+}
+/*for IE6 */
+* html .work p {
+	display: inline;
+	zoom: 1;
+}
+
+/*for IE7 */
+*:first-child+html .work p {
+	display: inline;
+	zoom: 1;
+}
+
+.icon{
+}
+.icon img{
+	margin-right:5px !important;
+}
+
+/*ul#work {
+    width: 90%;
+	list-style:none;
+	text-align:left;
+}
+
+ul#work li{
+    padding:10px;
+	border:1px solid #4aa1f9;
+	background:#fff;
+	margin-bottom:10px;
+	line-height:20px;
+
+}
+
+ul#work p{
+	float:left;
+    padding:0;
+	margin:0 10px 0 0; border:1px solid #000;
+}
+ul#work p img{
+   margin-right:5px;
+}
+*/
 ul#service li {
     list-style-type: none;
     border: 1px solid black;
@@ -152,3 +213,21 @@ ul#service li img.tsukuring {
 	margin:15px auto 30px;
 }
 
+div.work p {
+	display: block;
+}
+
+.icon{
+	margin-bottom:10px !important;
+}
+
+/*for IE6 */
+* html .work p {
+	display: block;
+
+}
+
+/*for IE7 */
+*:first-child+html .work p {
+	display: block;
+}
