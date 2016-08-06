@@ -120,6 +120,7 @@ ul#service li {
     border: 1px solid black;
     background-color: white;
     margin: 20px;
+	padding:5px;
 }
 
 ul#service li img.tsukuring {
