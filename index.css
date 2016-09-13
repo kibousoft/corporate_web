@@ -8,6 +8,7 @@ body {
 .cf:after { clear:both; }
 /* For IE 6/7 (trigger hasLayout) */
 .cf { zoom:1; }
+.pt10{ padding-top: 10px; }
 
 #main {
   text-align: center;
